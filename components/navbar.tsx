@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
@@ -31,9 +32,8 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-[#D4A017] flex items-center justify-center text-[#1B4332] font-bold text-sm" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>C</div>
-            <span className="text-lg font-bold text-[#1A1A1A]" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>Coinstack</span>
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.svg" alt="Coinstack" width={160} height={36} priority className="h-9 w-auto" />
           </Link>
 
           {/* Center Nav */}

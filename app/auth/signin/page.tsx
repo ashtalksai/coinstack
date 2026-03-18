@@ -21,19 +21,9 @@ export default function SignInPage() {
           className="relative z-10 max-w-sm text-center"
         >
           {/* Logo */}
-          <div className="flex items-center justify-center gap-3 mb-10">
-            <div
-              className="w-10 h-10 rounded-full bg-[#D4A017] flex items-center justify-center text-[#1B4332] font-bold text-lg"
-              style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}
-            >
-              C
-            </div>
-            <span
-              className="text-2xl font-bold text-white"
-              style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}
-            >
-              Coinstack
-            </span>
+          <div className="flex items-center justify-center mb-10">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo-white.svg" alt="Coinstack" className="h-10 w-auto" />
           </div>
 
           {/* Value Prop */}
@@ -79,19 +69,9 @@ export default function SignInPage() {
           className="w-full max-w-sm"
         >
           {/* Mobile logo */}
-          <div className="flex items-center justify-center gap-2 mb-10 lg:hidden">
-            <div
-              className="w-8 h-8 rounded-full bg-[#D4A017] flex items-center justify-center text-[#1B4332] font-bold text-sm"
-              style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}
-            >
-              C
-            </div>
-            <span
-              className="text-lg font-bold text-[#1A1A1A]"
-              style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}
-            >
-              Coinstack
-            </span>
+          <div className="flex items-center justify-center mb-10 lg:hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.svg" alt="Coinstack" className="h-9 w-auto" />
           </div>
 
           {/* Heading */}

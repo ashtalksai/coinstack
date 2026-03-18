@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const productLinks = [
   { href: "#features", label: "Features" },
@@ -27,9 +28,8 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-[#D4A017] flex items-center justify-center text-[#1B4332] font-bold text-sm" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>C</div>
-              <span className="text-lg font-bold" style={{ fontFamily: "'Cabinet Grotesk', sans-serif" }}>Coinstack</span>
+            <div className="mb-4">
+              <Image src="/logo-white.svg" alt="Coinstack" width={160} height={36} className="h-9 w-auto" />
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
               3 minutes a day.<br />Real money habits.

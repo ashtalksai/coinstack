@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Background: forest green rounded square -->
+  <rect width="512" height="512" rx="96" fill="#1B4332"/>
+  
+  <!-- Stacked coins, centered -->
+  <!-- Coin shadow/base layer -->
+  <ellipse cx="256" cy="390" rx="120" ry="38" fill="#0D2419" opacity="0.4"/>
+  
+  <!-- Coin 3 (bottom) - darkest gold -->
+  <ellipse cx="256" cy="370" rx="120" ry="38" fill="#9A7410"/>
+  <rect x="136" y="318" width="240" height="52" fill="#9A7410"/>
+  <ellipse cx="256" cy="318" rx="120" ry="38" fill="#B8890F"/>
+  
+  <!-- Coin 2 (middle) -->
+  <ellipse cx="256" cy="278" rx="120" ry="38" fill="#A88010"/>
+  <rect x="136" y="226" width="240" height="52" fill="#A88010"/>
+  <ellipse cx="256" cy="226" rx="120" ry="38" fill="#C89512"/>
+  
+  <!-- Coin 1 (top) - brightest gold -->
+  <ellipse cx="256" cy="186" rx="120" ry="38" fill="#BC8E11"/>
+  <rect x="136" y="134" width="240" height="52" fill="#BC8E11"/>
+  <ellipse cx="256" cy="134" rx="120" ry="38" fill="#D4A017"/>
+  
+  <!-- Shine on top coin -->
+  <ellipse cx="256" cy="134" rx="80" ry="20" fill="#E8B820" opacity="0.5"/>
+  
+  <!-- $ symbol on top coin -->
+  <text x="256" y="152" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#1B4332" opacity="0.9">$</text>
+</svg>

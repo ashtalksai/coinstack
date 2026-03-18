@@ -4,6 +4,27 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Coinstack — Duolingo for Personal Finance",
   description: "3 minutes a day. Real money habits. Build better spending habits with daily micro-challenges.",
+  openGraph: {
+    title: "Coinstack — Duolingo for Personal Finance",
+    description: "3 minutes a day. Real money habits. Build better spending habits with daily micro-challenges.",
+    url: "https://coinstack.ashketing.com",
+    siteName: "Coinstack",
+    images: [
+      {
+        url: "https://coinstack.ashketing.com/og-image.png",
+        width: 2048,
+        height: 1152,
+        alt: "Coinstack — Gamified Personal Finance",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Coinstack — Duolingo for Personal Finance",
+    description: "3 minutes a day. Real money habits.",
+    images: ["https://coinstack.ashketing.com/og-image.png"],
+  },
 };
 
 export default function RootLayout({
